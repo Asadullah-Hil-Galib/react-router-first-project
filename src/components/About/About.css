@@ -1,0 +1,33 @@
+.about{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.about img{
+    max-width: 100%;
+}
+.about .info {
+    text-align: left;
+    padding: 1rem;
+}
+.about .info h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    background: url(https://i.pinimg.com/originals/81/28/a4/8128a49d5f7b10b38d9aa6dd17544198.gif) top ;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    border-bottom: 2px solid #e83a3b;
+    padding-bottom: 1rem;
+}
+.about .info h3{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin: 1rem 0;
+}
+.about .info p{
+    padding: 1rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color:#333;
+}

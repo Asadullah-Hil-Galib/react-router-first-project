@@ -1,0 +1,9 @@
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid #e84a4b;
+    padding: 1rem;
+    box-sizing: border-box;
+}

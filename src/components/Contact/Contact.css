@@ -1,0 +1,57 @@
+.name-phone{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.5rem;
+}
+input{
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.4rem 0.4rem;
+    background: cornflowerblue;
+    color: #fff;
+    border: 1px solid #e83a3b;
+    outline: none;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+input::placeholder{
+    color: #ddd;
+}
+textarea{
+    resize: none;
+    min-height: 100px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #e83a3b;
+    margin-top: 0.5rem;
+    padding: 0.3rem;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+.buttons button {
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #fff;
+    background: cornflowerblue;
+    outline: none;
+    border: 2px solid cornflowerblue;
+    padding: 0.6rem 2.5rem;
+    margin-right: 1rem;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.buttons button:hover{
+    color: #e83a3b;
+    border-color: #e83a3b;
+    background: #fff;
+}
+.buttons p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #111;
+}

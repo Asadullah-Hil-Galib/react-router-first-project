@@ -1,0 +1,51 @@
+nav{
+    padding: 2rem 0;
+    background: cornflowerblue;
+    border-bottom: 3px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .menu-btn{
+    padding: 0 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+}
+nav .menu-btn:hover{
+    color: #e83a3b;
+}
+.responsive-menu{
+    font-size: 2rem;
+    color: #fff;
+    display: none;
+    z-index: 1000;
+}
+
+@media only screen and (max-width: 992px) {
+    .responsive-menu {
+       display: block;
+    }
+    nav{
+        position: relative;
+    }
+    .menu{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        min-height: 100vh;
+        background: cornflowerblue;
+        width: 100%;
+    }
+    .menu .menu-btn{
+        display: block;
+        padding: 1rem 0;
+        margin-top: 1rem;
+    }
+}
